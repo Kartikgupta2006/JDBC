@@ -19,7 +19,7 @@ public class myDevDeletion {
             System.out.println("connection stabilies successfully");
             Statement stmt = con.createStatement();
             int rowsAffected =stmt.executeUpdate(query);
-            System.out.println("no. of rows insert in database :"+rowsAffected);
+            System.out.println("no. of rows delete in database :"+rowsAffected);
 
             stmt.close();
             con.close();
